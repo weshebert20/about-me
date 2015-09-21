@@ -95,4 +95,25 @@ a:visited {
 .image-footer a {
     padding: 0;
 }
-
+@media only screen and (max-width: 500px) {
+  .masthead {
+    padding: 3em 0;
+  }
+  .masthead-heading {
+    font-size:3em;
+  }
+  .content-footer {
+    padding: .5em;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 1000px) {
+  .masthead-heading {
+    font-size:6em;
+  }
+  .masthead {
+    padding: .5em
+  }
+  .content-footer {
+    padding: .5em
+  }
+}
